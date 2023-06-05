@@ -1,0 +1,129 @@
+@charset: "utf-8";
+
+/* common */
+
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 48px 64px;
+}
+
+h1 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 32px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+h2 {
+  margin: 0;
+}
+
+.top-text {
+  text-align: center;
+  margin-top: 64px;
+}
+
+p {
+  margin: 0;
+}
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-lists ul {
+  display: flex;
+  list-style: none;
+  width: 360px;
+  justify-content: space-between;
+}
+
+.header-lists a {
+  text-decoration: none;
+  color: black;
+}
+
+/* main-photo */
+
+.main-photo {
+  margin-top: 48px;
+}
+
+.main-photo img {
+  width: 100%;
+}
+
+/* About */
+
+.about div {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* Works */
+
+.works div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 32px;
+  
+}
+
+.works div img {
+  width: calc((100% - 64px) / 3);
+}
+
+/* News */
+
+.news-list {
+  margin-top: 32px;
+}
+
+.news article {
+  display: flex;
+  gap: 80px;
+  border-bottom: #aaa 1px solid;
+  padding: 8px 0;
+}
+
+/* Contact */
+
+.forms {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  
+}
+
+.forms input {
+  width: 100%;
+}
+
+.forms textarea {
+  width: 100%;
+}
+
+th {
+  font-weight: normal;
+}
+
+.btn {
+  background: black;
+  padding: 16px 96px;
+  color: white;
+  display: block;
+  margin: 24px auto 0;
+}
